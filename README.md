@@ -1,2 +1,2 @@
-# tfc_demo24
-TF Cloud Demo 2024 example
+# tfc_demoui
+TF Cloud Demo UI example
