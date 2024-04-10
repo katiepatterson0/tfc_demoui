@@ -12,6 +12,3 @@ variable "instance_name" {
     type = string
     description = "Name of EC2 instance"
 }
-output "instance_name" {
-    value = var.instance_name
-}
