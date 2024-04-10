@@ -5,8 +5,4 @@ resource "aws_instance" "my_new_app_server" {
   tags = {
     Name = var.instance_name
   }
-
-  tags = {
-    Name = "Created by Patterson"
-}
 }
