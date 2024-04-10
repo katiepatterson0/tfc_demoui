@@ -8,10 +8,10 @@ variable "aws-secret-access-key" {
     type = string
     description = "aws secret access key"
 }
-variable "image_id" {
+variable "instance_name" {
     type = string
-    description = "ID of the image from a security perspective."
+    description = "Name of EC2 instance"
 }
-output "image_id" {
-    value = var.image_id
+output "instance_name" {
+    value = var.instance_name
 }
