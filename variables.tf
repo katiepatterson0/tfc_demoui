@@ -12,5 +12,6 @@ variable "image_id" {
     type = string
     description = "ID of the image from a security perspective."
 }
-output "image_id"
+output "image_id" {
     value = var.image_id
+}
