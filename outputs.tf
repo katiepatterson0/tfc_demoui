@@ -1,5 +1,5 @@
 #outputs.tf
 
-output "instance_name" {
-    value = var.instance_name
+output "ec2_name" {
+    value = var.ec2_name
 }
