@@ -13,4 +13,4 @@ variable "image_id" {
     description = "ID of the image from a security perspective."
 }
 output "image_id"
-    value = 
+    value = var.image_id
